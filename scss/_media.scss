@@ -1,0 +1,1604 @@
+@media(max-width: 1800px){
+    .header{
+        &__btn{
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    .main{
+        &__inner{
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &__img{
+            height: 450px;
+            width: 100%;
+        }
+    }
+
+
+    .review{
+        &__main{
+            gap: 100px;
+        }
+
+        &__images{
+            img{
+                height: 100px;
+            }
+        }
+    }
+
+
+    .write-off{
+        &__form{
+            grid-template-columns: 1fr 1.5fr 0.6fr;
+        }
+    }
+}
+
+@media(max-width: 1600px){
+    .container{
+        max-width: unset;
+        margin: unset;
+        padding: 0 40px;
+    }
+
+  
+}
+
+@media(max-width: 1200px){
+    .main{
+        &__content{
+            align-items: center;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &__box:last-child{
+            grid-column-start: span 2;
+        }
+
+        &__img{
+            height: 300px;
+        }
+
+    }
+
+    .title{
+        font-size: 60px;
+        line-height: 120%;
+    }
+
+    .header{
+        &__inner{
+            padding: 20px 0;
+            gap: 16px;
+        }
+
+        &__logo{
+            width: 250px;
+            height: 40px;
+        }
+
+        &__middle{
+            flex-direction: column;
+            align-items: flex-start;
+            width: fit-content;
+            gap: 5px;
+        }
+    }
+
+    .review{
+        &__main{
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        &__profile{
+            width: fit-content;
+            margin: auto
+        }
+
+        &__content{
+            padding-right: 0;
+        }
+
+        &__head{
+            display: grid;
+        }
+
+        &__images{
+            img{
+                height: 60px;
+            }
+        }
+    }
+
+    .video-review{
+
+        .slick-slider{
+            margin: 0 -20px;
+        }
+
+        .slick-slide{
+            margin: 0 20px;
+        }
+    }
+
+
+    .suggest{
+        &__head{
+            font-size: 30px;
+        }
+
+        &__inner{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .help{
+        &__list{
+            grid-template-columns: 1fr;
+        }
+
+        &__inner{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        &__li{
+            width: 100%;
+        }
+    }
+
+
+    .juridical{
+        &__item{
+            padding-right: 0;
+        }
+    }
+
+    .interests{
+        &__item{
+            font-size: 20px;
+        }
+
+        &__list{
+            gap: 30px 50px;
+        }
+    }
+
+    .family{
+        &__list{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .team{
+        &__text{
+            font-size: 20px;
+        }
+
+        &__quote{
+            grid-template-columns: 1fr;
+            background-image: unset;
+            padding-bottom: 0;
+        }
+
+
+        &__title{
+            padding-left: 0;
+            &::after{
+                display: none;
+            }
+
+            padding-bottom: 100px;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: contain;
+            background-image: url('../images/pointer-bottom.svg');
+           
+        }
+
+        &__slider{
+            margin: 50px 0!important;
+        }
+
+        &__paragraph{
+            font-size: 20px;
+            position: relative;
+            padding-left: 30px;
+            &::after{
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 6px;
+                border-radius: 10px;
+                background-color: $blue-box;
+            }
+        }
+    }
+
+    .header-modal{
+        &__list > li{
+            font-size: 40px;
+        }
+
+        &__list{
+            gap: 30px 50px;
+        }
+    }
+
+
+    .win{
+        &__inner{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .won{
+        &__inner{
+            padding: 20px 30px;
+        }
+    }
+
+}
+
+@media(max-width: 1024px){
+    .review{
+        &__bottom{
+            display: grid;
+            gap: 20px;
+        }
+
+        &__date{
+            display: flex;
+            gap: 20px;
+        }
+
+        &__box{
+            padding: 30px 50px;
+        }
+    }
+
+    .about{
+        &__inner{
+            grid-template-columns: 1fr;
+        }
+
+        &__view{
+            img{
+                object-position: top;
+            }
+        }
+
+        &__boxes{
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+    }
+
+    .help{
+        &__inner{
+            grid-template-columns: 1fr;
+        }
+
+        &__title{
+            font-size: 25px;
+        }
+
+        &__content{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+        }
+    }
+
+    .write-off{
+        position: relative;
+        padding-bottom: 120px;
+        &__call{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+
+    .pricing{
+        &__row{
+            font-size: 20px;
+        }
+    }
+
+    .reviewing{
+        &__content{
+            grid-template-columns: 1fr;
+        }
+
+        &__img{
+            height: 250px;
+        }
+
+    }
+
+    text{
+        font-size: 18px;
+    }
+
+
+    .contact{
+        &__inner{
+            grid-template-columns: 1fr;
+        }
+        &__view{
+            padding: 50px 20px;
+        }
+    }
+
+    .modal{
+        &__inner{
+            width: 80%;
+            height: 400px;
+        }
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+    .desk{
+        &__heading{
+            font-size: 25px;
+            margin: 30px 0;
+        }
+
+        .text{
+            font-size: 18px;
+        }
+
+        &__title{
+            font-size: 25px;
+        }
+
+        &__text{
+            font-size: 18px;
+        }
+    }
+
+
+    .desk-box{
+        &__item{
+            padding: 30px 20px;
+            border-radius: 30px;
+        }
+
+        &__text{
+            font-size: 16px;
+        }
+    }
+
+    .bankrupt{
+        &__inner{
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        &__item{
+            font-size: 18px;
+        }
+    }
+
+    .greytitle{
+        font-size: 35px;
+    }
+
+
+    .header-modal{
+        &__list{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .won{
+        &__inner{
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding-bottom: 80px;
+            position: relative;
+        }
+
+        &__btn{
+            position: absolute;
+            bottom: 40px;
+            right: 20px;
+        }
+    }
+
+
+}
+
+@media(max-width: 768px){
+    .container{
+        padding: 0 20px;
+    }
+
+    .title{
+        &::after{
+            left: 0;
+            height: 60px;
+            top: 40px;
+            bottom: unset;
+        }
+    }
+
+    .discounts,
+    .pricing,
+    .reviewing{
+        .title::after{
+            top: 10px;
+            height: 50px;
+            width: 50%;
+        }
+    }
+
+
+    .main{
+        &__content{
+            grid-template-columns: 1fr;
+        }
+
+        &__box:last-child{
+            grid-column-start: unset;
+        }
+
+        &__title{
+            &::after{
+                right: unset;
+                left: 0;
+                bottom: unset;
+                top: 0;
+            }
+        }
+
+        &__inner{
+            grid-template-columns: 1fr;
+        }
+
+        &__img{
+            height: 250px;
+        }
+
+        .title{
+            margin: 0 20px;
+            line-height: 110%;
+            
+        }
+    }
+
+    .team{
+        margin-top: 40px;
+        &__inner{
+            margin-top: 30px;
+        }
+    }
+
+    .header{
+        &__middle{
+            font-size: 14px;
+        }
+    }
+
+    .review{
+        &__title{
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        &__date{
+            display: grid;
+            gap: 5px;
+        }
+
+        &__left{
+            .review__date{
+                display: flex;
+            }
+        }
+    }
+
+    .video-review{
+        .slick-slide{
+            margin: 0;
+        }
+        .slick-slider{
+            margin: 0;
+        }
+
+    }
+
+
+    .suggest{
+        &__bottom{
+            grid-template-columns: 1fr;
+            gap: 0;
+        }
+
+        &__box{
+            padding: 30px 20px;
+        }
+    }
+
+    .write-off{
+        &__form{
+            grid-template-columns: 1fr;
+        }
+
+        &__btn{
+            padding: 16px 36px;
+            width: fit-content;
+            margin: auto;
+        }
+    }
+
+    .discounts{
+        &__item{
+            grid-template-columns: 1fr;
+        }
+
+        &__view{
+            img{
+                height: 200px;
+                margin: auto;
+                display: flex;
+                width: fit-content;
+            }
+        }
+
+        &__info{
+            margin-top: 50px;
+        }
+    }
+
+    .pricing{
+        &__row{
+            grid-template-columns: 1fr 150px;
+            font-size: 16px;
+        }
+
+        &__naming{
+            font-size: 20px;
+        }
+
+        &__info{
+            padding: 14px 20px;
+        }
+
+        &__nums{
+            padding: 14px;
+        }
+
+        &__left::after{
+            top: 0;
+            bottom: unset;
+        }
+
+        &__right::after{
+            top: 0;
+            right: 0;
+            width: 80%;
+            bottom: unset;
+        }
+    }
+
+    .news{
+        &__content{
+            padding: 40px;
+        }
+
+        &__title{
+            font-size: 22px;
+        }
+
+        .text{
+            font-size: 16px;
+        }
+
+
+        &__quote{
+            font-size: 14px;
+            &::before{
+                left: -25px;
+                top: -10px;
+            }
+    
+            &::after{
+                right: -25px;
+                bottom: -10px;
+            }
+        }
+
+        &__date{
+            font-size: 14px;
+        }
+
+
+    }
+
+
+    .desk{
+        &__title{
+            &::after{
+                right: unset;
+                left: -10px;
+                height: 60px;
+            }
+        }
+    }
+
+
+    .desk-box{
+        &__inner{
+            grid-template-columns: 1fr;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        &__title{
+            justify-content: center;
+        }
+    }
+
+    .greytitle{
+        font-size: 30px;
+    }
+
+    .bankrupt{
+        &__inner{
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+    }
+
+    .help{
+        &__content{
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+    }
+
+    .interests{
+        padding: 30px 0;
+        &__list{
+            margin-top: 40px;
+        }
+
+        &__item{
+            font-size: 18px;
+        }
+    }
+
+    .family{
+        &__list{
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        &__item{
+            font-size: 18px;
+            &::after{
+                height: 100%;
+            }
+        }
+    }
+
+
+    .others{
+        &__inner{
+            margin-bottom: 20px;
+            gap: 20px;
+        }
+
+        &__white,
+        &__blue{
+            padding: 30px 20px;
+        }
+
+        &__title{
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        &__boxes{
+            gap: 20px;
+        }
+
+        &__list{
+            gap: 20px;
+        }
+
+        &__item{
+            font-size: 18px;
+        }
+    }
+
+  
+
+    .juridical{
+        &__inner{
+            padding: 35px 0;
+        }
+
+        &__title{
+            font-size: 28px;
+        }
+
+        &__list{
+            gap: 30px;
+        }
+
+        &__item{
+            font-size: 18px;
+        }
+
+        &__list{
+            margin-top: 30px;
+        }
+    }
+
+    .team{
+        &__inner{
+            grid-template-columns: 1fr;
+        }
+
+        &__img{
+            height: 100%;
+        }
+
+        &__text{
+            font-size: 16px;
+        }
+
+        &__paragraph{
+            font-size: 18px;
+        }
+    }
+
+    .win{
+        .team__arrow{
+            top: 40%;
+            &_left{
+                left: 15px
+            }
+            &_right{
+                right: 15px
+            }
+        }
+
+        &__content_long{
+            .team__arrow{
+                top: 25%;
+            }
+        }
+
+        
+    }
+}
+
+@media(max-width: 620px){
+    .title{
+        font-size: 50px;
+    }
+
+    .header{
+        &__minilogo{
+            display: block;
+        }
+
+        &__middle{
+            display: none;
+        }
+    }
+
+    .main{
+        &__title{
+            font-size: 30px;
+        }
+
+        &__content{
+            gap: 20px;
+        }
+
+        &__text{
+            font-size: 14px;
+        }
+    }
+
+    .review{
+        &__avi{
+            height: 200px;
+            width: 200px;
+        }
+
+        &__text{
+            font-size: 14px;
+            padding: 0 20px;
+        }
+
+        &__title{
+            font-size: 20px;
+        }
+        
+        &__section{
+            gap: 0;
+        }
+
+        .dots{
+            margin-top: 10px;
+        }
+
+        &__text{
+            &::after,
+            &::before{
+                height: 20px;
+                width: 20px;
+            }
+
+            &::before{
+                left: -10px;
+            }
+        }
+        .title{
+            &::after{
+                right: unset;
+                left: 0;
+                top: 30%;
+            }
+        }
+    }
+
+    .about{
+        &__inner{
+            gap: 20px;
+        }
+        &__view{
+            img{
+                object-position: center;
+            }
+        }
+    }
+
+    .write-off{
+        &__phone{
+            font-size: 35px;
+        }
+
+        &__btn{
+            padding: 12px 30px;
+        }
+
+        &__title{
+            &::after{
+                right: unset;
+                left: 0;
+            }
+        }
+    }
+
+    .footer{
+        padding: 30px 0;
+        &__head{
+            align-items: flex-end;
+        }
+
+        &__logo{
+            width: 250px;
+            order: -1;
+        }
+
+        &__inner{
+            gap: 20px;
+            display: flex;
+            flex-direction: column-reverse;
+            position: relative;
+        }
+
+        &__head{
+            display: grid;
+            gap: 16px;
+        }
+
+
+        &__line{
+            font-size: 16px;
+        }
+
+        &__location{
+            height: 400px;
+            object-position: top;
+        }
+
+        iframe{
+            height: 300px;
+        }
+
+
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+
+    .reviewing{
+        
+        .title{
+            font-size: 40px;
+        }
+
+
+        &__img{
+            height: 200px;
+        }
+    }
+
+
+
+   
+
+    .news{
+        &__content{
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        &__title{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        &__quote{
+            padding: 0 20px;
+            &::before{
+                left: -5px;
+                top: -10px;
+            }
+    
+            &::after{
+                right: -5px;
+                bottom: -10px;
+            }
+        }
+
+        .text{
+            font-size: 14px;
+        }
+
+        &__comment{
+            font-size: 16px;
+            margin: 20px 0;
+        }
+    }
+
+    .text{
+        padding-left: 15px;
+        &::after{
+            width: 4px;
+        }
+    }
+
+    .modal{
+        &__inner{
+            height: 300px;
+        }
+    }
+
+
+    .desk{
+        &__heading{
+            font-size: 20px;
+        }
+
+        &__title{
+            font-size: 20px;
+        }
+
+        .text{
+            font-size: 16px;
+        }
+
+        &__paragraph{
+            padding-bottom: 40px;
+        }
+
+        &__text{
+            font-size: 16px;
+            padding-left: 14px;
+        }
+    }
+
+    
+    .desk-box{
+        &__title{
+            font-size: 20px;
+            margin-bottom: 10px;
+            span{
+                padding: 8px 12px;
+            }
+
+            img{
+                height: 40px;
+            }
+        }
+
+        &__item{
+            padding: 20px;
+        }
+
+        &__text{
+            font-size: 14px;
+        }
+
+        &__btn{
+            padding: 12px 22px;
+            font-size: 14px;
+        }
+    }
+
+    .family{
+        &__list{
+            margin-top: 40px;
+        }
+    }
+
+    .interests{
+        &__list{
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+    }
+
+    .bankrupt{
+        &__item{
+            border-radius: 10px;
+            padding: 12px;
+        }
+    }
+
+    .juridical{
+        &__list{
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+    }
+
+ 
+
+
+    .others{
+        padding-top: 0;
+        &__inner{
+            grid-template-columns: 1fr;
+        }
+
+        &__blue,
+        &__white{
+            border-radius: 20px;
+        }
+    }
+
+
+    .team{
+        &__title{
+            padding-bottom: 50px;
+            font-size: 30px;
+        }
+
+        &__inner{
+            gap: 30px;
+        }
+
+        &__content{
+            gap: 16px;
+        }
+
+        &__quote{
+            gap: 20px;
+        }
+
+        &__paragraph{
+            font-size: 16px;
+        }
+
+        &__arrow{
+            height: 60px;
+        }
+
+        &__slide{
+            min-height: auto;
+        }
+    }
+
+
+    .header-modal{
+        padding-top: 120px;
+        &__list > li{
+            font-size: 30px;
+        }
+
+        &__links{
+            display: flex;
+        }
+
+        &__list{
+            gap: 20px;
+        }
+    }
+
+    .win{
+        &__content{
+            margin-top: 50px;
+        }
+
+        .slick-list{
+            padding: 0;
+        }
+
+        
+
+        &__text{
+            font-size: 16px;
+        }
+
+        &__info{
+            font-size: 16px;
+        }
+    }
+
+    .won{
+        &__tab{
+            font-size: 16px;
+        }
+        &__slider{
+            img{
+                height: 300px;
+                border-radius: 5px;
+                object-fit: contain;
+            }
+        }
+
+        &__btn{
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+    }
+
+    .dots{
+        button{
+            height: 15px;
+            width: 15px;
+        }
+    }
+
+    .win{
+        .title{
+            &::after{
+                height: 50px;
+                width: 60%;
+                right: unset;
+                top: 0px;
+                left: 0;
+            }
+        }
+    }
+
+    .title::after{
+        height: 40px;
+        top: 25px;
+    }
+
+
+
+
+}
+
+@media(max-width: 480px){
+    .container{
+        padding: 0 15px;
+    }
+
+    .space{
+        margin-top: 40px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .arrow{
+        height: 35px;
+        width: 35px;
+        img{
+            padding: 5px;
+        }
+    }
+
+    .main{
+        &__title{
+            font-size: 26px;
+        }
+
+        &__img{
+            height: 200px;
+        }
+    }
+
+    .won{
+      
+        &__slider{
+            img{
+                height: 200px;
+                border-radius: 5px;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .win{
+        &__content{
+            margin-top: 30px;
+        }
+    }
+
+    .header{
+        &__box{
+            img{
+                height: 20px;
+                width: 20px;
+            }
+            &:last-child{
+                img{
+                    width: 25px;
+                }
+            }
+        }
+
+        &__inner{
+            gap: 10px;
+        }
+
+        &__logo{
+            margin-right: 0;
+        }
+
+        &__btn{
+            height: 45px;
+            width: 45px;
+        }
+    }
+
+    
+    .about{
+        &__view{
+            img{
+                height: 550px;
+            }
+        }
+    }
+
+
+    .review{
+        &__avi{
+            height: 180px;
+            width: 180px;
+        }
+
+        &__title{
+            font-size: 18px;
+        }
+
+        &__profile{
+            width: 100%;
+            padding-right: 0px;
+            background-size: 40px 70%;
+            background-position: right 0px top;
+        }
+
+        &__name{
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        &__main{
+            gap: 20px;
+        }
+
+        &__box{
+            padding: 20px 30px;
+        }
+
+        &__date{
+            font-size: 16px;
+        }
+
+        &__data{
+            font-weight: 700;
+        }
+
+
+        &__main{
+            margin-bottom: 20px;
+        }
+
+        &__left{
+            display: grid;
+            gap: 5px;
+        }
+    }
+
+
+
+    .video-review{
+            &__dots{
+            gap: 10px;
+            margin-top: 10px;
+            button{
+                height: 12px;
+                width: 12px;
+            }
+        }
+    }
+
+
+    .about{
+
+        &__title{
+            font-size: 24px;
+            align-items: flex-end;
+            padding-left: 0;
+            padding-top: 0;
+            gap: 30px;
+            padding-left: 30px;
+            height: 80px;
+            img{
+                height: 80px;
+                width: 80px;
+            }
+        }
+
+        &__num{
+            font-size: 60px;
+            margin-bottom: 0;
+            margin-bottom: -10px;
+        }
+
+        &__text{
+            font-size: 16px;
+            margin-top: 15px;
+        }
+    }
+
+
+    .suggest{
+        &__title{
+            font-size: 30px;
+        }
+
+        &__head{
+            font-size: 25px;
+            padding: 14px;
+        }
+
+        &__text{
+            font-size: 16px;
+        }
+    }
+
+
+    .help{
+        &__content{
+            padding: 20px;
+        }
+
+        &__form{
+            padding: 30px 20px;
+        }
+
+        &__tab{
+            padding: 20px;
+        }
+
+        &__heading{
+            font-size: 30px;
+        }
+
+        &__details{
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        &__forming{
+            gap: 16px;
+        }
+    }
+
+    .discounts{
+        &__view{
+            img{
+                height: 150px;
+            }
+        }
+
+        &__details{
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        &__title{
+            font-size: 25px;
+        }
+        &__text{
+            font-size: 18px;
+        }
+
+        &__quote{
+            margin-top: 50px;
+            padding: 20px;
+        }
+
+        &__blok{
+            font-size: 16px;
+        }
+
+        &__info{
+            font-size: 18px;
+        }
+
+        &__content{
+            margin-top: 50px;
+        }
+    }
+
+
+    .pricing{
+        &__row{
+            grid-template-columns: 1fr 100px;
+            font-size: 16px;
+            font-size: 14px;
+        }
+
+        &__naming{
+            font-size: 16px;
+        }
+    }
+
+
+    .text{
+        font-size: 14px;
+    }
+
+
+    .contact{
+        &__socials{
+            gap: 20px;
+        }
+
+        &__view{
+            padding: 40px 10px;
+        }
+
+        &__socialname,
+        &__mail{
+            font-size: 18px;
+        }
+
+        &__social{
+            height: 40px;
+        }
+
+        &__regime{
+            font-size: 20px;
+        }
+
+        &__details{
+            gap: 10px;
+            font-size: 16px;
+        }
+
+        .text{
+            font-size: 16px;
+            gap: 12px;
+        }
+
+        &__more{
+            font-size: 14px;
+        }
+    }
+
+    .modal{
+        &__inner{
+            width: 90%;
+            height: 250px;
+        }
+    }
+
+
+
+    .family{
+        &__list{
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+    }
+
+    .greytitle{
+        font-size: 25px;
+    }
+
+    .family,
+    .interests,
+    .bankrupt{
+        &__item{
+            font-size: 16px;
+        }
+
+        &__inner{
+            gap: 8px
+        }
+    }
+
+    .others{
+        &__title{
+            font-size: 22px;
+        }
+
+        &__item{
+            font-size: 16px;
+        }
+
+        &__blue,
+        &__white{
+            padding:24px 16px;
+        }
+    }
+
+    .header-modal{
+        padding-top: 120px;
+        &__list > li{
+            font-size: 25px;
+        }
+
+        &__dropdown img{
+            height: 15px;
+        }
+
+        &__list{
+            gap: 16px;
+        }
+    }
+
+    .reviewing{
+        
+        .title{
+            font-size: 35px;
+            &::after{
+                height: 40px;
+            }
+        }
+    }
+
+   
+}
+
+
+@media (max-width: 380px){
+    .about{
+        &__view{
+            img{
+                height: 450px;
+            }
+        }
+    }
+}
